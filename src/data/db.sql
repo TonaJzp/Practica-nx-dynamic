@@ -20,3 +20,17 @@ VALUES
   ('Monitor 17 pulgadas', 'Monitor plano LCD', 110.22),
   ('Teclado', 'Teclado USB en español', 20.12),
   ('Impresora', 'Impresora láser a color', 360.05);
+
+
+-- CLIENTES
+CREATE TABLE clientes (
+  id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  nombre VARCHAR(200) NOT NULL,
+  edad INT UNSIGNED NOT NULL,
+  createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+
+INSERT INTO clientes (nombre, edad) VALUES
+('María Pérez', 28),
+('Juan López', 35);
