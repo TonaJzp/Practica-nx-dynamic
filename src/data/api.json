@@ -21,5 +21,20 @@
       "precio": 44.99,
       "createdAt": "2025-11-06T12:50:07.914Z"
     }
+  ],
+
+  "clientes": [
+    { 
+      "id": 1, 
+      "nombre": "María Pérez", 
+      "edad": 28 
+    },
+
+    { 
+      "id": 2, 
+      "nombre": "Juan López", 
+      "edad": 35 
+    }
   ]
+
 }

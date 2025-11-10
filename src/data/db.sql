@@ -31,6 +31,7 @@ CREATE TABLE clientes (
   updatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
 
-INSERT INTO clientes (nombre, edad) VALUES
+INSERT INTO clientes (nombre, edad) 
+VALUES
 ('María Pérez', 28),
 ('Juan López', 35);
