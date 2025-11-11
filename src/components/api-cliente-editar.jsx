@@ -1,5 +1,5 @@
 'use client'
-import { editarClienteAPI } from "@/lib/actions";
+import { editarClienteAPI } from "@/lib/action";
 import { useState } from "react";
 
 function ClienteEditarAPI({ cliente }) {

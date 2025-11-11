@@ -1,4 +1,4 @@
-import { nuevoClienteDB } from "@/lib/actions";
+import { nuevoClienteDB } from "@/lib/action";
 
 function ClienteNuevoDB() {
   return (

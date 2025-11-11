@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Buscar from '@/components/buscar'
-import { eliminarClienteDB } from '@/lib/actions'
+import { eliminarClienteDB } from '@/lib/action'
 import { obtenerClientesDB } from '@/lib/data'
 import ClienteEditarDB from './db-cliente-editar'
 

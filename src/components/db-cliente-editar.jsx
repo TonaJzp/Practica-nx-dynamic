@@ -1,5 +1,5 @@
 'use client'
-import { editarClienteDB } from "@/lib/actions";
+import { editarClienteDB } from "@/lib/action";
 import { useState } from "react";
 
 function ClienteEditarDB({ cliente }) {

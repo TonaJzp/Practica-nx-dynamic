@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Buscar from '@/components/buscar'
 import { obtenerClientesAPI } from '@/lib/data'
-import { eliminarClienteAPI } from '@/lib/actions'
+import { eliminarClienteAPI } from '@/lib/action'
 import ClienteEditarAPI from './api-cliente-editar'
 
 async function Clientes({ query }) {
